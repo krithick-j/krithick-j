@@ -10,6 +10,15 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/krithick-j/krithick-j/blob/main/assets/Krithick_Jegatheesan_Resume.pdf">
+    <img src="https://img.shields.io/badge/View-Resume-1F6FEB?style=for-the-badge" alt="View Resume" />
+  </a>
+  <a href="https://raw.githubusercontent.com/krithick-j/krithick-j/main/assets/Krithick_Jegatheesan_Resume.pdf">
+    <img src="https://img.shields.io/badge/Download-Resume-2DA44E?style=for-the-badge" alt="Download Resume" />
+  </a>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/Python-Backend-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python backend" />
   <img src="https://img.shields.io/badge/Go-Services-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go services" />
   <img src="https://img.shields.io/badge/FastAPI-APIs-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI APIs" />
