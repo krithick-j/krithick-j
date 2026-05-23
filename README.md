@@ -39,8 +39,8 @@
 | [content-moderation](https://github.com/krithick-j/content-moderation) | FastAPI, Celery, PostgreSQL, Redis | Async AI moderation backend with worker queues, monitoring, and deployment-oriented structure |
 | [migrate-gitlab-to-github](https://github.com/krithick-j/migrate-gitlab-to-github) | Python CLI, Git automation, API integrations | End-to-end migration tooling with manifest generation, history-preserving mirroring, retry flows, and tests |
 | [classroom-backend](https://github.com/krithick-j/classroom-backend) | Python, Flask, RBAC, tests | Role-based backend service with grading workflows and strong test coverage |
-| [MrBill](https://github.com/krithick-j/MrBill) | Go, Fiber, GORM, PostgreSQL | Go billing backend with API documentation and typical business CRUD flows |
-| [blog](https://github.com/krithick-j/blog) | Django, PostgreSQL, OpenAI | Content application with RBAC, feature flags, containerized setup, and AI-assisted capabilities |
+| [ui-backend](https://github.com/krithick-j/ui-backend) | Go, Fiber, GORM, MySQL | Larger operational backend with auth, product, order, referral, payout, and admin-oriented service flows |
+| [wool-golang](https://github.com/krithick-j/wool-golang) | Go, Fiber, GORM, PostgreSQL | Marketplace backend with buyer, seller, public, and admin API flows, JWT auth, and environment-based configuration |
 | [attendance-analysis](https://github.com/krithick-j/attendance-analysis) | Python, data processing, Tableau | Data cleaning and analysis workflow for attendance reporting and visualization |
 
 ## Private Production Work
@@ -48,7 +48,6 @@
 Some of the work that best matches my recent resume is currently private:
 
 - `vtt-backend`: Python backend work with authentication, environment-based configuration, and API service structure
-- `ui-backend`: large Go backend with relational workflows, operational logic, and platform integration
 - `ui-admin-frontend`: Svelte admin interface supporting operational dashboards and workflows
 
 ## What I Like Building
