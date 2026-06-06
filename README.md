@@ -50,7 +50,7 @@
 | [classroom-backend](https://github.com/krithick-j/classroom-backend) | Python, Flask, RBAC, tests | Role-based backend service with grading workflows and strong test coverage |
 | [ui-backend](https://github.com/krithick-j/ui-backend) | Go, Fiber, GORM, MySQL | Larger operational backend with auth, product, order, referral, payout, and admin-oriented service flows |
 | [wool-golang](https://github.com/krithick-j/wool-golang) | Go, Fiber, GORM, PostgreSQL | Marketplace backend with buyer, seller, public, and admin API flows, JWT auth, and environment-based configuration |
-| [attendance-analysis](https://github.com/krithick-j/attendance-analysis) | Python, data processing, Tableau | Data cleaning and analysis workflow for attendance reporting and visualization |
+| [feedpulse](https://github.com/krithick-j/feedpulse) | FastAPI, Temporal, PostgreSQL, React | Concurrent XML ingestion pipeline with durable Temporal orchestration, retries/reconciliation, and a live operator dashboard over SSE |
 
 ## Private Production Work
 
