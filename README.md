@@ -52,17 +52,11 @@
 | [wool-golang](https://github.com/krithick-j/wool-golang) | Go, Fiber, GORM, PostgreSQL | Marketplace backend with buyer, seller, public, and admin API flows, JWT auth, and environment-based configuration |
 | [feedpulse](https://github.com/krithick-j/feedpulse) | FastAPI, Temporal, PostgreSQL, React | Concurrent XML ingestion pipeline with durable Temporal orchestration, retries/reconciliation, and a live operator dashboard over SSE |
 
-## Private Production Work
-
-Some of the work that best matches my recent resume is currently private:
-
-- `vtt-backend`: Python backend work with authentication, environment-based configuration, and API service structure
-- `ui-admin-frontend`: Svelte admin interface supporting operational dashboards and workflows
-
 ## What I Like Building
 
 - Agent backends and tool-calling workflows
 - FastAPI and Go services with clean operational boundaries
+- ETL and data-ingestion pipelines (concurrent fetch, parse, persist)
 - Retrieval and moderation systems
 - Internal platforms, admin tools, and automation-heavy backends
 - Reliable deployment and observability foundations
