@@ -38,6 +38,7 @@
 - Languages: Python, Go, SQL, TypeScript, Bash, Java
 - Backend: FastAPI, Uvicorn, Pydantic, GoFiber, Django, Flask
 - AI and Data: LangGraph, LangChain, OpenAI SDK, RAG, moderation workflows, embeddings
+- Orchestration and ETL: Temporal, Airflow, Celery, async task queues, concurrent ingestion pipelines
 - Infra: Docker, AWS, Kubernetes, GitHub Actions, Helm, CI/CD
 - Observability: OpenTelemetry, Sentry, structured logging, metrics
 
