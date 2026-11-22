@@ -31,12 +31,12 @@
 ## About
 
 - **Software Developer II at FedEx** (Information Security): building an enterprise AI chatbot for the Secure by Design initiative and automating security processes with RPA.
-- **Previously at StepsAI**: built the AI backend for customer agents, copilots, and voice agents:
+- **Previously at StepsAI** (Software Development Engineer): built the AI backend for customer agents, copilots, and voice agents used by about 25 B2B clients across WhatsApp, Instagram, Messenger, and web:
   - LangGraph/LangChain agent orchestration: ReAct tool-calling loops, streaming, checkpointing, escalation, state persistence
   - RAG on Milvus/Zilliz with hybrid dense + sparse search and Cohere reranking
-  - A DAG-based workflow engine (FastAPI, PostgreSQL, Redis queues, background workers, retries)
+  - Contributed to a DAG-based workflow engine (FastAPI, PostgreSQL, Redis queues, background workers, retries); maintained Airflow ETL with Kafka
   - 15+ tool and channel integrations (Gmail, Drive, Outlook, Notion, Slack, WhatsApp, CRM/helpdesk)
-  - Observability with OpenTelemetry, Langfuse, and Sentry; led a team of 3 engineers and 2 interns
+  - Traced agents with OpenTelemetry and Langfuse to cut token cost and latency; led a team of 3 engineers and 2 interns
 - **Earlier**: Golang (GoFiber) backends, MySQL, pprof profiling, and Kubernetes (GKE) deployments.
 - Most of my production work is private, so this profile highlights the public repos that best represent it.
 
