@@ -1,11 +1,12 @@
 <h1 align="center">Krithick Jegatheesan</h1>
 <p align="center">
-  AI Backend Engineer building Python and Go systems for agents, APIs, workflows, and cloud-native platforms.
+  AI Agent &amp; Backend Engineer building production LLM agents, RAG pipelines, and workflow automation in Python and Go.
 </p>
 
 <p align="center">
   <a href="mailto:j.krithick@gmail.com">j.krithick@gmail.com</a>
-  · Chennai, India
+  · Hyderabad, India
+  · <a href="https://www.linkedin.com/in/krithick-j/">LinkedIn</a>
   · <a href="https://github.com/krithick-j">GitHub</a>
 </p>
 
@@ -21,48 +22,54 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-Backend-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python backend" />
   <img src="https://img.shields.io/badge/Go-Services-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go services" />
+  <img src="https://img.shields.io/badge/LangGraph-Agents-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangGraph agents" />
   <img src="https://img.shields.io/badge/FastAPI-APIs-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI APIs" />
   <img src="https://img.shields.io/badge/PostgreSQL-Data-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/AWS-Cloud-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" alt="AWS" />
+  <img src="https://img.shields.io/badge/Kubernetes-Infra-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" />
 </p>
 
 ## About
 
-- 3+ years building backend systems with Python, Go, FastAPI, and REST APIs.
-- Current focus: AI agents, RAG pipelines, workflow automation, async services, and production backend reliability.
-- Hands-on with PostgreSQL, Redis, Docker, GitHub Actions, Kubernetes, OpenTelemetry, and Sentry.
-- Most recent production work is private, so this profile highlights the public repos that best represent my backend and systems work.
+- **Software Developer II at FedEx** (Information Security): building an enterprise AI chatbot for the Secure by Design initiative and automating security processes with RPA.
+- **Previously at StepsAI**: built the AI backend for customer agents, copilots, and voice agents:
+  - LangGraph/LangChain agent orchestration: ReAct tool-calling loops, streaming, checkpointing, escalation, state persistence
+  - RAG on Milvus/Zilliz with hybrid dense + sparse search and Cohere reranking
+  - A DAG-based workflow engine (FastAPI, PostgreSQL, Redis queues, background workers, retries)
+  - 15+ tool and channel integrations (Gmail, Drive, Outlook, Notion, Slack, WhatsApp, CRM/helpdesk)
+  - Observability with OpenTelemetry, Langfuse, and Sentry; led a team of 3 engineers and 2 interns
+- **Earlier**: Golang (GoFiber) backends, MySQL, pprof profiling, and Kubernetes (GKE) deployments.
+- Most of my production work is private, so this profile highlights the public repos that best represent it.
 
 ## Core Stack
 
-- Languages: Python, Go, SQL, TypeScript, Bash, Java
-- Backend: FastAPI, Uvicorn, Pydantic, GoFiber, Django, Flask
-- AI and Data: LangGraph, LangChain, OpenAI SDK, RAG, moderation workflows, embeddings
-- Orchestration and ETL: Temporal, Airflow, Celery, async task queues, concurrent ingestion pipelines
-- Infra: Docker, AWS, Kubernetes, GitHub Actions, Helm, CI/CD
-- Observability: OpenTelemetry, Sentry, structured logging, metrics
+- **AI Engineering:** LangGraph, LangChain, OpenAI SDK, RAG, Tool Calling, Cohere Rerank, Mem0, Embeddings
+- **Languages:** Python, Go, SQL, TypeScript, Bash, Java
+- **Backend:** FastAPI, Uvicorn, Pydantic, GoFiber, SSE Streaming, Async I/O, Microservices
+- **Data & Orchestration:** PostgreSQL, MySQL, MongoDB, Redis, Milvus, Kafka, Temporal, Airflow, Celery
+- **Cloud & DevOps:** AWS, GCP, Kubernetes (GKE/EKS), Docker, Helm, ArgoCD, GitHub Actions
+- **Observability:** OpenTelemetry, Langfuse, Sentry, ELK, structured logging, pprof
 
 ## Featured Public Repositories
 
 | Repository | Focus | What it shows |
 | --- | --- | --- |
+| [feedpulse](https://github.com/krithick-j/feedpulse) | FastAPI, Temporal, PostgreSQL, React | Concurrent XML ingestion pipeline with durable Temporal orchestration, retries/reconciliation, and a live operator dashboard over SSE |
 | [content-moderation](https://github.com/krithick-j/content-moderation) | FastAPI, Celery, PostgreSQL, Redis | Async AI moderation backend with worker queues, monitoring, and deployment-oriented structure |
+| [MrBill](https://github.com/krithick-j/MrBill) | Go, Fiber, GORM, PostgreSQL | Three-tier billing system with invoicing, payments, product catalog, and Swagger-documented APIs |
 | [migrate-gitlab-to-github](https://github.com/krithick-j/migrate-gitlab-to-github) | Python CLI, Git automation, API integrations | End-to-end migration tooling with manifest generation, history-preserving mirroring, retry flows, and tests |
-| [classroom-backend](https://github.com/krithick-j/classroom-backend) | Python, Flask, RBAC, tests | Role-based backend service with grading workflows and strong test coverage |
 | [ui-backend](https://github.com/krithick-j/ui-backend) | Go, Fiber, GORM, MySQL | Larger operational backend with auth, product, order, referral, payout, and admin-oriented service flows |
 | [wool-golang](https://github.com/krithick-j/wool-golang) | Go, Fiber, GORM, PostgreSQL | Marketplace backend with buyer, seller, public, and admin API flows, JWT auth, and environment-based configuration |
-| [feedpulse](https://github.com/krithick-j/feedpulse) | FastAPI, Temporal, PostgreSQL, React | Concurrent XML ingestion pipeline with durable Temporal orchestration, retries/reconciliation, and a live operator dashboard over SSE |
+| [classroom-backend](https://github.com/krithick-j/classroom-backend) | Python, Flask, RBAC, tests | Role-based backend service with grading workflows and strong test coverage |
 
 ## What I Like Building
 
-- Agent backends and tool-calling workflows
+- AI agent backends, tool-calling workflows, and retrieval systems
+- Durable workflow and data-ingestion pipelines
 - FastAPI and Go services with clean operational boundaries
-- ETL and data-ingestion pipelines (concurrent fetch, parse, persist)
-- Retrieval and moderation systems
-- Internal platforms, admin tools, and automation-heavy backends
 - Reliable deployment and observability foundations
 
 ## Contact
 
 - Email: [j.krithick@gmail.com](mailto:j.krithick@gmail.com)
-- GitHub: [github.com/krithick-j](https://github.com/krithick-j)
+- LinkedIn: [linkedin.com/in/krithick-j](https://www.linkedin.com/in/krithick-j/)
+- Open to AI Engineer / Backend Engineer roles in Chennai, Bengaluru, Hyderabad, or remote.
